@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190819154303_Initial.cs" />
+    <Compile Remove="Migrations\20190819154303_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190819163423_Rating.cs" />
+    <Compile Remove="Migrations\20190819163423_Rating.Designer.cs" />
+    <Compile Remove="Migrations\20190820162615_FixCurrency.cs" />
+    <Compile Remove="Migrations\20190820162615_FixCurrency.Designer.cs" />
+    <Compile Remove="Migrations\20190820172608_Adding decimal.cs" />
+    <Compile Remove="Migrations\20190820172608_Adding decimal.Designer.cs" />
+    <Compile Remove="Migrations\20230203205844_BlackCoderMovieMintApp.cs" />
+    <Compile Remove="Migrations\20230203205844_BlackCoderMovieMintApp.Designer.cs" />
+    <Compile Remove="Migrations\20230203210652_BlackCoderMovieMintApp.cs" />
+    <Compile Remove="Migrations\20230203210652_BlackCoderMovieMintApp.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+  </ItemGroup>
+
+</Project>
